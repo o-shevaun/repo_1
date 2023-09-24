@@ -1,0 +1,65 @@
+/* article.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.article-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.article-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.article-image {
+    width: 80%;
+    max-height: 400px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.article-body {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+/* ... (other styles as needed) */
